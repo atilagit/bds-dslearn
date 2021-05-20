@@ -22,3 +22,6 @@ INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Olá �
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Primeira mensagem aleatória', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', false, '/offers/1/resource/1/sections/1', 1);
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Segunda mensagem aleatória', TIMESTAMP WITH TIME ZONE '2020-11-20T03:00:00Z', false, '/offers/1/resource/1/sections/1', 1);
 
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://www.publicdomainpictures.net/pictures/270000/nahled/training-course-training-online.jpg', 1, 'testeDeExternalLink', 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://www.publicdomainpictures.net/pictures/270000/nahled/training-course-training-online.jpg', 2, 'testeDeExternalLink', 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, external_Link, offer_id) VALUES ('Lives', 'Lives exclusivas para a turama', 3, 'https://www.publicdomainpictures.net/pictures/270000/nahled/training-course-training-online.jpg', 0, 'testeDeExternalLink', 1);
